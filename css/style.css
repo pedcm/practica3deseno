@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Happy Times at the IKOB New Game Plus Edition';
-    src: url('fonts/happy-times-ng_regular_master-webfont.woff2') format('woff2'),
-         url('fonts/happy-times-ng_regular_master-webfont.woff') format('woff');
+    src: url('../fonts/happy-times-ng_regular_master-webfont.woff2') format('woff2'),
+         url('../fonts/happy-times-ng_regular_master-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Sporting Grotesque';
-    src: url('fonts/sportinggrotesque-regular-webfont.woff2') format('woff2'),
-         url('fonts/sportinggrotesque-regular-webfont.woff') format('woff');
+    src: url('../fonts/sportinggrotesque-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sportinggrotesque-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

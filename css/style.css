@@ -55,7 +55,7 @@ html, body {
     display: inline-block;
     cursor: pointer;
     font-family: 'Sporting Grotesque';
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
     padding-top: 18px;
     padding-left: 6px;
@@ -89,7 +89,7 @@ input:checked ~ #menu {
 
 li {
     font-family: 'Sporting Grotesque';
-    font-weight: bold;
+    font-weight: normal;
     font-size: 32px;
     padding-top: 2vh;
     list-style: none;
@@ -102,7 +102,7 @@ li > a {
 
 label > strong {
 	font-family: 'Sporting Grotesque';
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 38px;
 	letter-spacing: -5px;
 	position: absolute;
@@ -147,7 +147,7 @@ label > strong {
     font-size: 10vh;
     max-width: 75vw;
     font-family: 'Sporting Grotesque';
-    font-weight: bold;
+    font-weight: normal;
     
 }
 	

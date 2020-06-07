@@ -1,0 +1,313 @@
+html, body {
+    font-size: 100%;
+    letter-spacing: -1px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+    overflow-x: hidden;
+    max-width: 100%;
+
+}
+
+.nav {
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 68px;
+    min-height: 56px;
+    color: black;
+    background: #FF7D6B;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+}
+
+.nav label {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Sporting Grotesque';
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 6px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 60px;
+}
+
+input#menuboton {
+    display: none;
+}
+
+input:checked ~ #menu {
+    max-height: 100%;
+    background: #FF7D6B;
+    width: 95vw;
+    height: 90vh;
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+#menu {
+	position:fixed;
+	z-index: 1;
+	width: 100%;
+	padding: 0;
+	margin:0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+li {
+    font-family: 'Sporting Grotesque';
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 2vh;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+label > strong {
+	font-family: 'Sporting Grotesque';
+	font-weight: bold;
+	font-size: 38px;
+	letter-spacing: -5px;
+	position: absolute;
+	left: -54px;
+	top: 16px;
+    z-index: 100;
+}
+
+#fullpage {
+    max-width: 100% !important;
+}
+
+/* Portada */
+
+.portada {
+    color: #FF7D6B;
+}
+
+.portada p {
+    position: absolute;
+    font-size: 3.5vh;
+    margin: 3vh;
+    margin-bottom: 5vh;
+    max-width: 70vw;
+    bottom: 0;
+    text-align: right;
+    text-transform: lowercase;
+    font-family: 'Happy Times at the IKOB New Game Plus Edition';
+}
+
+.portada h1 {
+    padding-top: 56px;
+}
+
+.section-header {
+    position: absolute;
+    top: 0;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 90%;
+    letter-spacing: -5px;
+    font-size: 10vh;
+    max-width: 75vw;
+    font-family: 'Sporting Grotesque';
+    
+}
+	
+strong {
+    font-size: 4.5vh;
+    font-weight: normal;
+}
+
+.portfoliowrap {
+	position: relative;
+	padding-top: 25vh;
+	width: 100%;
+	padding-bottom: 5vh;
+}
+
+.divport {
+    position: relative;
+    font-size: 3vh;
+    margin-left: 30vw;
+    margin-right: 4vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    max-width: 65vw;
+    text-align: right;
+    text-transform: lowercase;
+    transform: rotate(-5deg);
+    font-family: 'Happy Times at the IKOB New Game Plus Edition';
+}
+
+.par {
+	margin-left: 5vw;
+	margin-right: 30vw;
+	text-align: left;
+    transform: rotate(5deg);
+}
+
+.fotoport{
+    border: 3vw solid black;
+}
+
+.fotoport > img {
+    vertical-align: top;
+}
+
+article {
+    padding-bottom: 5vh;
+    font-family: 'Happy Times at the IKOB New Game Plus Edition';
+    max-width: 90%;
+    transform: rotate(5deg);
+    border: black 3px dashed;
+    text-transform: lowercase;
+    overflow: hidden;
+}
+
+.block {
+    cursor:pointer;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.top-post {
+    padding-top: 20vh;
+}
+
+#section2 .impar {
+    transform: rotate(-5deg);
+
+}
+
+#section2 {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+.boton {
+    background-color: #FF7D6B;
+    border: black 3px dashed; 
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    transform: rotate(5deg);
+}
+
+.foto > img {
+    width: 100%;
+}
+
+.textoprevia {
+    margin: auto;
+    width: 90vw;
+    max-width: inherit;
+}
+
+em {
+     background-image: 
+    linear-gradient(0deg, 
+rgba(255, 125, 107, 1),      rgba(255, 125, 107, 1),
+      rgba(255, 125, 107, 1)
+    );
+    font-style: normal;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#section0 {
+    background: black;
+    }
+
+#section1 {
+ background: #FF7D6B;
+    }
+
+#section2 {
+background: white;
+}
+
+#section3 {
+    background: black;
+    color: #FF7D6B;
+}
+
+#fullpagewrapper {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .portada p {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Para sobremesas e portátiles: */
+    
+    article {
+        max-width: 30vw;
+        margin: auto;
+        float: left;
+        padding-right: 3vw;
+        padding-left: 3vw;
+        overflow: hidden;
+        
+    }
+    
+    .divport {
+        max-width: 30vw;
+        margin-left: 35vw;
+        margin-right: auto;
+    }
+    
+    .par {
+        margin-left: auto;
+        margin-right: 35vw;
+    }
+    
+    .fotoport {
+        max-width: 20vw;
+        border: 1vw solid black;
+    }
+    
+    .boton {
+        float: left;
+    }
+
+    #section2 .impar {
+        float: left;
+    }
+    
+    #fullpagewrapper {
+        max-width: 75vw;
+        margin: auto;
+}
+    .portada p {
+        margin-left: 35vw;
+        max-width: 40vw;
+    }
+
+}

@@ -17,7 +17,6 @@
 }
 
 html, body {
-    font-size: 100%;
     letter-spacing: -1px;
     -webkit-touch-callout: none; 
     -webkit-user-select: none;
@@ -25,9 +24,6 @@ html, body {
        -moz-user-select: none;
         -ms-user-select: none; 
             user-select: none;
-    overflow-x: hidden;
-    max-width: 100%;
-
 }
 
 .nav {
